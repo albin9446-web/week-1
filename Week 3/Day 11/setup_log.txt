@@ -1,0 +1,25 @@
+Day 11 - Django Setup
+
+Created virtual environment using:
+python -m venv venv
+
+Activated environment:
+venv\Scripts\activate
+
+Installed Django using:
+pip install django
+
+Checked version:
+django-admin --version
+
+Created project:
+django-admin startproject klaw_backend .
+
+Created app:
+python manage.py startapp courses
+
+Ran server:
+python manage.py runserver
+
+Opened:
+http://127.0.0.1:8000/
