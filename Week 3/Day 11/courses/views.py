@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def home_view(request):
+    return HttpResponse("Welcome to Klaw Courses")
+
+def detail_view(request, name):
+    return HttpResponse(f"You are viewing course: {name}")
