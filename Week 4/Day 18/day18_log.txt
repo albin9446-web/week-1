@@ -1,0 +1,10 @@
+Week 4 - Day 18
+
+Topics Covered:
+- Function-Based API Views
+- Class-Based API Views
+- GET, POST, PUT, DELETE operations
+- HTTP status codes
+- DRF Browsable API
+
+Tasks completed successfully.
