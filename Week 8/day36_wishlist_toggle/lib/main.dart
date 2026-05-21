@@ -81,3 +81,12 @@ class _WishlistPageState extends State<WishlistPage> {
     );
   }
 }
+
+// Research Answer:
+// If the list is global, Flutter may not properly manage UI updates
+// and widget state. Global state can cause unexpected behavior
+// because multiple widgets may share and modify the same data
+// outside the widget lifecycle.
+//
+// Using local state inside a StatefulWidget with setState ensures
+// proper UI rebuilding and state management.
